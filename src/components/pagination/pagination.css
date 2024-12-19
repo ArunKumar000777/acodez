@@ -1,0 +1,19 @@
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+}
+.pagination-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    column-gap: 20px;
+}
+.btn-box {
+    display: flex;
+    column-gap: 10px;
+}
+.btn-box > div {
+    cursor: pointer;
+}

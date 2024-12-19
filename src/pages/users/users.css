@@ -1,0 +1,130 @@
+.user-section {
+    width: 80%;
+    margin: 0 auto;
+}
+.input-btn-box {
+    display: flex;
+    justify-content: space-between;
+}
+/* .edit-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.edit-icon {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.edit-icon:hover {
+    color: #0056b3;
+}
+
+.edit-options-box {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.edit-option,
+.delete-option {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.edit-option {
+    color: #007bff;
+}
+
+.delete-option {
+    color: red;
+}
+
+.edit-option:hover,
+.delete-option:hover {
+    background-color: #f0f0f0;
+} */
+.edit-icon-container {
+    position: relative;
+    display: inline-block;
+    right: 40px;
+}
+
+.edit-icon {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.edit-icon:hover {
+    color: #0056b3;
+}
+
+.edit-options-box {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.edit-option,
+.delete-option {
+    display: flex;
+    column-gap: 10px;
+    text-decoration: none;
+    color: gray !important;
+}
+.edit-option {
+    margin-bottom: 8px;
+}
+.del-btn {
+    outline: none;
+    border: none;
+    background-color: white;
+    color: gray;
+}
+
+.edit-option {
+    color: #007bff;
+}
+
+.delete-option {
+    color: red;
+}
+
+/* .edit-option:hover,
+.delete-option:hover {
+    background-color: #f0f0f0;
+} */
+
+.btn {
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+.btn-primary-fill {
+    background-color: dodgerblue;
+    color: white;
+    transition: all 0.3seconds ease-in;
+}
+.btn-primary-outline {
+    color: dodgerblue;
+    transition: all 0.3seconds ease-in;
+    border: 1px solid dodgerblue;
+}
+
+.btn-primary:hover {
+    background-color: rgb(26, 128, 230);
+}

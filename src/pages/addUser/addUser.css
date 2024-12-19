@@ -1,0 +1,17 @@
+form {
+    width: max-content;
+}
+.add-user-section {
+    width: 80%;
+    margin: 0 auto;
+}
+.first-row,
+.second-row,
+.third-row {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+.submit-btn-box {
+    text-align: end;
+}
