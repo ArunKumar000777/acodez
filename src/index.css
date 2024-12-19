@@ -62,3 +62,19 @@ Link {
 .btn-primary:hover {
     background-color: rgb(26, 128, 230);
 }
+
+.status-pill {
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status-pill.active {
+    background-color: #72cd2c;
+}
+
+.status-pill.inactive {
+    background-color: #ef6c00;
+}
